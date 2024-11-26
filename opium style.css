@@ -1,0 +1,37 @@
+body {
+    color:white;
+    background:black;
+    margin: 0px;
+    font-family: "Gothic A1", sans-serif;
+}
+
+header{
+    border-bottom: solid 2px red;
+    padding: 25px;
+    font-size: 32px;
+    color: red;
+}
+
+::selection{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-video {
+    display:flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria-video img {
+    opacity: 0.4;
+}
+
+.categoria-video img:hover {
+    opacity: 1.0;
+    border: 2px solid red;
+}
